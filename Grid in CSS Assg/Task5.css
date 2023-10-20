@@ -1,0 +1,30 @@
+.container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 2px solid green;
+    justify-self: end;
+
+}
+
+.container1>div {
+    background-color: orange;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 2px solid green;
+    justify-items: center;
+    margin-top: 50px;
+
+}
+
+.container2>div {
+    background-color: rgb(38, 195, 212);
+    padding: 7px;
+    border: 2px solid black;
+    margin: 10px;
+}

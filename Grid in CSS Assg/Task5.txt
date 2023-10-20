@@ -1,0 +1,4 @@
+The difference between justify-items and justify-self:
+------------------------------------------------------
+✔ justify-items apply to grid container.
+✔ justify-self applied to grid items.

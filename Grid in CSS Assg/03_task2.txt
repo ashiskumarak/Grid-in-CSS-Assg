@@ -1,0 +1,14 @@
+✔ grid-auto-rows and grid-auto-column properties specifies the height and width of rows that are automatically created 
+   when there is no explicit row defination and column defination respectively.
+
+
+✔ grid-auto-rows sets the size of any rows that don’t have an explicit size.
+
+✔ This property affects only rows with the size not set.
+
+✔ The grid-auto-columns property sets a size for the columns in a grid container.
+
+✔ This property affects only columns with the size not set.
+
+
+

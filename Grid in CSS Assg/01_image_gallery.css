@@ -1,0 +1,51 @@
+.container {
+    height: 80vh;
+    width: 80vw;
+    border: 3px solid rgb(31, 27, 27);
+    display: grid;
+    grid-template-areas: 
+    'IMG1 IMG1  IMG2'
+    'IMG3 IMG4 IMG5'
+    'IMG3 IMG6 IMG5' 
+    ;
+    gap: 15px;
+    padding: 10px;
+}
+.img1{
+    grid-area: IMG1;
+    background: url("https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    grid-area: IMG2;
+    background: url("https://images.pexels.com/photos/159045/the-interior-of-the-repair-interior-design-159045.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-size: cover;
+}
+.img3{
+    grid-area: IMG3;
+    background: url("https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-size: cover;
+}
+.img4{
+    grid-area: IMG4;
+    background: url("https://images.pexels.com/photos/34299/herbs-flavoring-seasoning-cooking.jpg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-size: cover;
+
+}
+.img5{
+    grid-area: IMG5;
+    background:url("https://images.pexels.com/photos/4210610/pexels-photo-4210610.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-size: cover;
+}
+.img6{
+    grid-area: IMG6;
+    background: url("https://images.pexels.com/photos/6074935/pexels-photo-6074935.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-size: cover;
+
+}
